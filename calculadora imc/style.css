@@ -1,0 +1,68 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #40916c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    background-color: #74c69d;
+    border-radius: 15px;
+    height: 50vh;
+    width: 40vw;
+    padding: 5%;
+    margin: 0 5%;
+}
+
+.cal input{
+    border-radius: 15px;
+    outline: none;
+    size: 1px solid black;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.cal button{
+    margin: 5% 0 5% 0;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #74c69d;
+
+    transition: 1.5s;
+}
+
+.cal button:hover{
+    background-color: #40916c;
+}
+
+.cal p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td{
+    border: 2px solid black;
+}
+
+th, td{
+    padding: 2%;
+}

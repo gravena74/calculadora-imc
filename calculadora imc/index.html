@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <main>
+        <div class="cal">
+            <h1>Calculadora de IMC</h1>
+            <input type="text" id="kg" placeholder="KG">
+            <input type="text" id="size" placeholder="Size">
+            <button>Submit</button>
+
+            <p id="result">Result here</p>
+        </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificação</th>
+                </tr>
+
+                <tr>
+                    <td> abaixo de 18,5 </td>
+                    <td> abaixo do peso </td>
+                </tr>
+
+                <tr>
+                    <td> entre 18,6 e 24,9 </td>
+                    <td> Peso ideal (parábens) </td>
+                </tr>
+
+                <tr>
+                    <td> entre 25,0 e 29,9 </td>
+                    <td> Levemente acima do peso </td>
+                </tr>
+
+                <tr>
+                    <td> entre 30,0 e 34,9 </td>
+                    <td> Obesidade grau I </td>
+                </tr>
+
+                <tr>
+                    <td> entre 35,0 e 39,9 </td>
+                    <td> Obesidade grau II (severa) </td>
+                </tr>
+
+                <tr>
+                    <td> acima de 40 </td>
+                    <td> Obesidade III (mórbida) </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
